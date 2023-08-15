@@ -35,7 +35,7 @@ function Footer () {
             <br />
             <br />
             <br />
-            ©2021 GardenFever Online Services Pvt Ltd, All rights reserved
+            ©2021 AgroFavor Online Services Pvt Ltd, All rights reserved
             <br/>
           </section>
         </section>

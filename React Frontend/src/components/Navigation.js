@@ -16,7 +16,7 @@ const Navigation = (props) => {
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid nav-color">
           <Link to="/home">
-            <span class="navbar-brand nav-title">GardeNFeveR</span>
+            <span class="navbar-brand nav-title">AgroFavor</span>
           </Link>
           <button
             class="navbar-toggler"
