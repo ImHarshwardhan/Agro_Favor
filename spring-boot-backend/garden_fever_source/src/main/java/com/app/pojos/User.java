@@ -32,7 +32,7 @@ public class User extends BaseEntity {
 	@Email(message = "Invalid email format")
 	private String email="abc@gmail.com";
 	@Column(length = 20,nullable = false)
-	@Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[#@$*]).{5,20})",message = "Invalid password!")
+//	@Pattern(regexp="((?=.*\\d)(?=.*[a-z])(?=.*[#@$*]).{5,20})",message = "Invalid password!")
 //	@JsonIgnore
 	private String password;
 	@NotBlank(message = "name must be supplied")

@@ -66,7 +66,7 @@ const SignupScreen =(props)=>{
                         <input onChange={(e) => {
                                 setPassword(e.target.value)
                                 }}
-                                type="text" placeholder="Password" className="form-control"/>
+                                type="Password" placeholder="Password" className="form-control"/>
                     </div>
                 </div>
 

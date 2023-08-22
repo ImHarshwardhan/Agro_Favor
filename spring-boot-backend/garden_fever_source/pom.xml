@@ -8,10 +8,10 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sunbeam</groupId>
-	<artifactId>garden_fever_source</artifactId>
+	<groupId>com.iacsd</groupId>
+	<artifactId>agro_favor_source</artifactId>
 	<version>0.0.1</version>
-	<name>garden_fever_source</name>
+	<name>agro_favor_source</name>
 	<description>REST API endpoint for Net Banking</description>
 	<properties>
 		<java.version>1.8</java.version>

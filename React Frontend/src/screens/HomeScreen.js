@@ -30,7 +30,7 @@ const HomeScreen = (props) => {
   }, []);
 
   useEffect(() => {}, [error, productresponse, loading]);
-
+d
   const onAddToCart = (product) => {
     if(islogin){
     const header = {
@@ -68,33 +68,33 @@ const HomeScreen = (props) => {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
+          <div class="center">
             <div class="carousel-item active">
-              <img src={slide1} class="d-block w-100" alt="" width="2000" height="400"/>   
+              <img src={slide1} class="d-block w-100" alt="" width="1000" height="400"/>   
             </div>
 
             <div class="carousel-item">
-              <img src={slide2} class="d-block w-100" alt="" width="2000" height="400"/>
+              <img src={slide2} class="d-block w-100" alt="" width="1000" height="400"/>
             </div>
 
            <div class="carousel-item">
-              <img src={slide3} class="d-block w-100" alt="" width="2000" height="400"/>
+              <img src={slide3} class="d-block w-100" alt="" width="1000" height="400"/>
             </div>
 
             <div class="carousel-item">
-              <img src={slide4} class="d-block w-100" alt="" width="3000" height="400"/>
+              <img src={slide4} class="d-block w-100" alt="" width="1000" height="400"/>
             </div>
 
             <div class="carousel-item">
-              <img src={slide5} class="d-block w-100" alt="" width="3500" height="400"/>
+              <img src={slide5} class="d-block w-100" alt="" width="1000" height="400"/>
             </div>
 
             <div class="carousel-item">
-              <img src={slide6} class="d-block w-100" alt="" width="4000" height="400"/>
+              <img src={slide6} class="d-block w-100" alt="" width="1000" height="400"/>
             </div>
 
             <div class="carousel-item">
-              <img src={slide7} class="d-block w-100" alt="" width="2500" height="400"/>
+              <img src={slide7} class="d-block w-100" alt="" width="1000" height="400"/>
             </div>
          
           <div class="carousel-control-prev" type="" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">

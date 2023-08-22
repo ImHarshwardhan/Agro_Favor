@@ -32,43 +32,6 @@ const AboutScreen = (props) => {
                       </div>
                     </div>
                   </div>
-          
-                  <div class="bg-light py-5">
-                    <div class="container">
-                      <div class="row mb-4">
-                        <div class="col-lg-5">
-                          <h2 class="display-4 font-weight-italic">Our team:</h2>
-                        </div>
-                      </div>
-          
-                      <div class="row text-center">
-          
-                        <div class="col-xl-3 col-sm-6 mb-5">
-                          <div class="bg-white rounded shadow-sm py-5 px-4"><img src={ajit} alt="" width="100" class="img-fluid rounded-circle mb-4 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0">Ajit Borugale</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-                          </div>
-                        </div>
-          
-                        <div class="col-xl-3 col-sm-6 mb-5">
-                          <div class="bg-white rounded shadow-sm py-5 px-4"><img src={chetan} alt="" width="100" class="img-fluid rounded-circle mb-4 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0">Chetan Mohod</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-                          </div>
-                        </div>
-          
-                        <div class="col-xl-3 col-sm-6 mb-5">
-                          <div class="bg-white rounded shadow-sm py-5 px-4"><img src={kishor} alt="" width="100" class="img-fluid rounded-circle mb-4 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0">Kishor Dalavi</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-                          </div>
-                        </div>
-          
-                        <div class="col-xl-3 col-sm-6 mb-5">
-                          <div class="bg-white rounded shadow-sm py-5 px-4"><img src={vishal} alt="" width="100" class="img-fluid rounded-circle mb-4 img-thumbnail shadow-sm" />
-                            <h5 class="mb-0">Vishal Chavan</h5><span class="small text-uppercase text-muted">CEO - Founder</span>      
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               )
             }
