@@ -115,7 +115,7 @@ const CartScreen = (props) => {
       <Link to="/home">
         <button className="btn btn-primary ">Back</button>
       </Link>
-      <button onClick={onPlace} className="btn btn-success ">Plcae Order</button>
+      <button onClick={onPlace} className="btn btn-success ">Place Order</button>
     </div>
   );
 };

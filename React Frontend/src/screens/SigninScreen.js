@@ -56,7 +56,7 @@ const SigninScreen = (props) => {
         </div>
         <div className="mb-3">
           <label className="form-label">Password</label>
-          <input
+          <input type='password'
             onChange={(e) => {
               setPassword(e.target.value)
             }}
@@ -66,7 +66,7 @@ const SigninScreen = (props) => {
         <div className="mb-3">
           
           <button onClick={onSignin} className="btn btn-success">
-            Singin
+            Signin
           </button>
           
           <div className="float-end">

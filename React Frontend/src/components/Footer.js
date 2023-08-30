@@ -30,12 +30,15 @@ function Footer () {
           </section>
           </Link>
           <section className="footer-info__terms">
-            Address: Plot No. R/2, Market Yard Road, 
-            Behind Hotel Fulora, Gultekdi, Pune, Maharashtra 411037
+          Address: Institute for Advanced Computing & Software Development,
+          Dr. D.Y. Patil Educational Complex,
+          Sector 29, Behind Akurdi Railway Station,
+          Nigdi Pradhikaran, Akurdi
+          Pune - 411044.
             <br />
             <br />
             <br />
-            ©2021 AgroFavor Online Services Pvt Ltd, All rights reserved
+            ©2023 AgroFavor Online Services Pvt Ltd, All rights reserved
             <br/>
           </section>
         </section>

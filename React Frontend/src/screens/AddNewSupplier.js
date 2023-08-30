@@ -61,13 +61,12 @@ const AddNewSupplier = (props) => {
         </div>
 
         <div className="form-group">
-          <strong className="col-sm-3 control-label">Password</strong>
+          <strong className="col-sm-3 control-label" type="password">Password</strong>
           <div className="col-sm-9">
-            <input
+            <input type='password'
               onChange={(e) => {
                 setPassword(e.target.value);
               }}
-              type="text"
               placeholder="Password"
               className="form-control"
             />
@@ -96,7 +95,7 @@ const AddNewSupplier = (props) => {
                 setPinCode(e.target.value);
               }}
               type="text"
-              placeholder="pincode"
+              placeholder="Pincode"
               className="form-control"
             />
           </div>

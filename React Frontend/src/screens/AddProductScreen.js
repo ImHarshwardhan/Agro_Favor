@@ -130,9 +130,6 @@ const AddProductScreen = (props) => {
               placeholder="Image"
               className="form-control"
             />
-            <span className="help-block">
-              Your phone number won't be disclosed anywhere{" "}
-            </span>
           </div>
         </div>
 

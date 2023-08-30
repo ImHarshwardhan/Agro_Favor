@@ -8,14 +8,20 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Lob;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.NotBlank;
 
+import org.springframework.data.annotation.Id;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-public class Category extends BaseEntity {
+public class Category extends BaseEntity{
+	
 	@Column(length = 45)
 	@NotBlank(message = "Category name must be supplied")
 	private String name;
@@ -79,8 +85,7 @@ public class Category extends BaseEntity {
 	public void setProducts(Set<Products> products) {
 		this.products = products;
 	}
-
-
+	
 
 	@Override
 	public String toString() {
